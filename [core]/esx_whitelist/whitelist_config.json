@@ -1,0 +1,20 @@
+{
+    "rules": [
+        {
+            "action": "enable",
+            "value": 1,
+            "priority": 1,
+            "id": "1760757908554",
+            "enabled": true,
+            "operator": "<",
+            "type": "player-count"
+        }
+    ],
+    "discordRoleId": "993986810285916190",
+    "gracePeriod": 10,
+    "discordGuildId": "905187923383689256",
+    "discordEnabled": false,
+    "discordWebhook": "***CONFIGURED***",
+    "whitelistEnabled": true,
+    "kickConnected": true
+}
