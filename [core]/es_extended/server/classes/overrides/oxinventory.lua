@@ -61,7 +61,7 @@ Core.PlayerFunctionOverrides.OxInventory = {
         end
     end,
 
-   removeAccountMoney = function(self)
+    removeAccountMoney = function(self)
         return function(accountName, money, reason)
             reason = reason or "unknown"
             if money < 1 then return false end
